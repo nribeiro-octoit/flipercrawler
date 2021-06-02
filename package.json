@@ -1,0 +1,18 @@
+{
+  "name": "flipercrawler",
+  "version": "1.0.0",
+  "description": "Fliper - Crawler: NodeJS Developer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --inspect src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nadson Dias Ribeiro",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.7",
+    "puppeteer": "^9.1.1"
+  }
+}
